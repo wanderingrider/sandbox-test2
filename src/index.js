@@ -87,11 +87,17 @@
 // const message2 = `私は${name}です。年齢は${age}です。`;
 // console.log(message2);
 
-const myprofile = ["リク", 39];
+// const myprofile = ["リク", 39];
 
-const message3 = `名前は${myprofile[0]}です。年齢は${myprofile[1]}歳です。`;
-console.log(message3);
+// const message3 = `名前は${myprofile[0]}です。年齢は${myprofile[1]}歳です。`;
+// console.log(message3);
 
-const [name, age] = myprofile;
-const message4 = `名前は${name}です。年齢は${age}歳です。`;
-console.log(message4);
+// const [name, age] = myprofile;
+// const message4 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(message4);
+
+/**
+ * デフォルト値、引数
+ */
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん！`);
+// sayHello("リク");
